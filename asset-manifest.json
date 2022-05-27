@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.3be625bf.css",
+    "main.js": "/react-portfolio/static/js/main.f47f505c.js",
+    "static/media/community.jpg": "/react-portfolio/static/media/community.db33cd2a1841cd4880be.jpg",
+    "static/media/ecommerce.jpg": "/react-portfolio/static/media/ecommerce.45e8039e145ffb198ea1.jpg",
+    "static/media/futurepetplace.jpg": "/react-portfolio/static/media/futurepetplace.0451efc40351568643f7.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.3be625bf.css.map": "/react-portfolio/static/css/main.3be625bf.css.map",
+    "main.f47f505c.js.map": "/react-portfolio/static/js/main.f47f505c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3be625bf.css",
+    "static/js/main.f47f505c.js"
+  ]
+}
