@@ -1,7 +1,7 @@
 # React Portfolio
 
 ## Task
-In this task, I was assigned to create a personal portfolio using React.JS and deploy it to GitHub Pages. 
+For this task, I was assigned to create a personal portfolio using React.JS and deploy it to GitHub Pages. 
 
 ## User Story
 
