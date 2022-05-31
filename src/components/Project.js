@@ -10,7 +10,7 @@ import CBB from '../photos/community.jpg';
 import PetPlace from '../photos/futurepetplace.jpg';
 
 const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#eee',
   ...theme.typography.body2,
   padding: theme.spacing(1),
   textAlign: 'left',
@@ -25,16 +25,16 @@ export default function BasicGrid() {
         <Grid container spacing={2}>
           <Grid item xs={12}>
             <Item>
-              <div>
+              <div class="card">
                   <h1>
                       Community Bulletin Board
                   </h1>
 
+                  <img src={CBB}/>
+
                   <h3>
                       NPM Package
                   </h3>
-
-                  <img src={CBB}/>
 
                   <p>
                       A simple, easy-to-use community bulletin board for sharing community news and events
@@ -53,7 +53,7 @@ export default function BasicGrid() {
           </Grid>
           <Grid item xs={6}>
             <Item>
-                <div>
+                <div class="card">
                     <h1>
                         E-Commerce Backend
                     </h1>
@@ -61,7 +61,7 @@ export default function BasicGrid() {
                     <img src={ECommerce}/>
 
                     <h3>
-                        JavaScript | Express | Sequelize | Handlebars
+                        JavaScript | Express | Sequelize
                     </h3>
 
                     <p>
@@ -78,7 +78,7 @@ export default function BasicGrid() {
           </Grid>
           <Grid item xs={6}>
             <Item>
-              <div>
+              <div class="card">
                     <h1>
                         Future Pet Place
                     </h1>
@@ -86,7 +86,7 @@ export default function BasicGrid() {
                     <img src={PetPlace}/>
 
                     <h3>
-                        JavaScript | Express | Sequelize | Handlebars
+                        JavaScript | HTML | CSS
                     </h3>
 
                     <p>

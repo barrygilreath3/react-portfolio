@@ -2,6 +2,10 @@ main {
     padding: 20px 10%;
 }
 
+.card {
+    padding: 7px;
+}
+
 a {
     text-decoration: none;
     color: #219ebc;
@@ -16,6 +20,14 @@ p {
 }
 
 .links {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
     text-align: center;
 }
 

@@ -13,7 +13,6 @@ li {
     list-style-type: none;
     display: inline-block;
     margin: 0px 20px;
-    text-align: left;
     font-size: 15px;
 }
 
@@ -40,8 +39,6 @@ li a:focus {
     li {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        text-align: center;
         font-size: 18px;
         margin: 10px;
     }

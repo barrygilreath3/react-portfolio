@@ -1,6 +1,6 @@
 import React from "react";
 import './styles/style.css';
-import BasicGrid from "./components/Grid";
+import Project from "./components/Project";
 import Header from "./components/Header"
 import Navigation from "./components/Navigation";
 import About from "./components/About"
@@ -13,7 +13,7 @@ function App() {
         <div><Navigation /></div>
         <main>
           <div><About /></div>
-          <div><BasicGrid /></div>
+          <div><Project /></div>
         </main>
         <div><Footer /></div>
     </div>
